@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'product_model.dart';
-import 'dummy_data.dart';
-import 'product_detail_screen.dart';
+import 'dummydata.dart';
+import 'product_details.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
