@@ -45,7 +45,6 @@ class _TaskScreenState extends State<TaskScreen> {
         builder: (context, Box<Task> box, _) {
           List<Task> pendingTasks = box.values.where((task) => !task.isCompleted).toList();
           List<Task> completedTasks = box.values.where((task) => task.isCompleted).toList();
-
           return Column(
             children: [
               Expanded(
